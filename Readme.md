@@ -13,9 +13,9 @@ Redis: $ docker run --name (name_Redis) -p 6379:6379 -d -t redis:alpine;
 
 Utilize os dados inseridos na criação dos bancos de dados no arquivo .env para configura-lo, o arquivo .env fica localizado na pasta backend.
 
-Inicialização:
+# Inicialização:
 
-Backend: na raiz do backend execute o comando "yarn dev" para iniciar o programa e em outro terminal, também na raiz do backend execute "yarn queue" para iniciar a função de envio de e-mails.
+* Backend: na raiz do backend execute o comando "yarn dev" para iniciar o programa e em outro terminal, também na raiz do backend execute "yarn queue" para iniciar a função de envio de e-mails.
 
 Frontend: na raiz do frontend execute o comando "yarn start"
 

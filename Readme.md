@@ -17,6 +17,6 @@ Utilize os dados inseridos na criação dos bancos de dados no arquivo .env para
 
 * Backend: na raiz do backend execute o comando "yarn dev" para iniciar o programa e em outro terminal, também na raiz do backend execute "yarn queue" para iniciar a função de envio de e-mails.
 
-Frontend: na raiz do frontend execute o comando "yarn start"
+* Frontend: na raiz do frontend execute o comando "yarn start"
 
-Mobile: Projeto construido apenas para Android. Para iniciar o aplicativo execute o comando "react-native run-android" na raiz do mobile.
+* Mobile: Projeto construido apenas para Android. Para iniciar o aplicativo execute o comando "react-native run-android" na raiz do mobile.

@@ -30,13 +30,7 @@ export default function Profile() {
       <Strong>{deliveryMan.email}</Strong>
       <Label>Data de cadastro</Label>
       <Strong>{deliveryMan.created_at}</Strong>
-      <ExitButton
-        onPress={() => {
-          handleLogout();
-        }}
-      >
-        Logout
-      </ExitButton>
+      <ExitButton onPress={handleLogout}>Logout</ExitButton>
     </Container>
   );
 }
